@@ -1,0 +1,43 @@
+.navbar{
+    margin-top: -10px;
+}
+.sub-menu{
+    list-style-type:none ;
+    margin: 0;
+    padding: 200px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('/img/banner-1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+  
+}
+
+
+.sub-menu li .link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.2em;
+}
+.sub-menu li .link:hover{
+    border-bottom: 3px solid red;
+    transition: all 1s;
+    font-size: 1.6em;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    ul.sub-menu , 
+    .sub-menu li .link {
+       display: block;
+    
+    }
+}
